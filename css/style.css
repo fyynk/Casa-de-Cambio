@@ -1,0 +1,40 @@
+﻿@charset utf-8;
+
+body 
+{
+    margin: 0;
+    background-color: #53292a;
+    font-family: Arial, sens-serif;
+}
+
+*
+{
+   box-sizing: border-box;
+}
+
+.areaCedula 
+{
+    width: 450px;
+    height: 100px;
+    margin: 30px auto 10px auto;
+    padding: 20px;
+}
+
+.areaConversao 
+{
+    margin: 0 auto;
+    width: 450px;
+    height: 300px;
+    padding: 30px;
+}
+
+.areaCedula, .areaConversao 
+{  
+    background-color: #f5f5dc;
+    border-radius: 4px;
+    text-align: center;
+    }
+    
+    
+    
+   

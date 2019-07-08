@@ -1,0 +1,12 @@
+I:\Site de Cambio\Casa de Cambio\Casa de Cambio\bin\Casa de Cambio.dll
+I:\Site de Cambio\Casa de Cambio\Casa de Cambio\bin\Casa de Cambio.pdb
+I:\Site de Cambio\Casa de Cambio\Casa de Cambio\obj\Debug\Casa de Cambio.dll
+I:\Site de Cambio\Casa de Cambio\Casa de Cambio\obj\Debug\Casa de Cambio.pdb
+F:\Site de Cambio\Casa de Cambio\Casa de Cambio\bin\Casa de Cambio.dll
+F:\Site de Cambio\Casa de Cambio\Casa de Cambio\bin\Casa de Cambio.pdb
+F:\Site de Cambio\Casa de Cambio\Casa de Cambio\obj\Debug\Casa de Cambio.dll
+F:\Site de Cambio\Casa de Cambio\Casa de Cambio\obj\Debug\Casa de Cambio.pdb
+C:\Users\janeg\OneDrive\Área de Trabalho\ETEC Trabalhos de Ivan Guimarães\Casa de Câmbio PC\Casa de Cambio 2.0\Casa de Cambio\bin\Casa de Cambio.dll
+C:\Users\janeg\OneDrive\Área de Trabalho\ETEC Trabalhos de Ivan Guimarães\Casa de Câmbio PC\Casa de Cambio 2.0\Casa de Cambio\bin\Casa de Cambio.pdb
+C:\Users\janeg\OneDrive\Área de Trabalho\ETEC Trabalhos de Ivan Guimarães\Casa de Câmbio PC\Casa de Cambio 2.0\Casa de Cambio\obj\Debug\Casa de Cambio.dll
+C:\Users\janeg\OneDrive\Área de Trabalho\ETEC Trabalhos de Ivan Guimarães\Casa de Câmbio PC\Casa de Cambio 2.0\Casa de Cambio\obj\Debug\Casa de Cambio.pdb

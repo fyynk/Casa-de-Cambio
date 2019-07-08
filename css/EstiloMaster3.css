@@ -1,0 +1,543 @@
+﻿@charset "utf-8";
+
+Okay tudo linkado aqui na Casa de Câmbio.
+
+
+.ImagemContato{
+    height: 650px;
+    margin: 0px;
+    margin-top: -30px;
+    position: relative;
+    background-image: url(../Imagens/wallpaper_cidade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+html
+{
+    background-color:skyblue ;
+}
+
+body 
+{
+    margin: 0;
+    background-color: skyblue;
+    font-family: Arial, sens-serif;
+    min-width: 1280px;
+}
+
+.Conversor
+{
+    height: 690px;
+    margin: 0px;
+    margin-top: -30px;
+    position: relative;
+    background-attachment: fixed;
+    background-image: url(../Imagens/wallpaper_cidade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;;
+}
+
+
+*
+{
+   box-sizing: border-box;
+}
+
+.areaCedula 
+{
+    width: 450px;
+    height: 100px;
+    margin: 30px auto 10px auto;
+    padding: 20px;
+}
+
+.areaConversao 
+{
+    margin: 0 auto;
+    width: 450px;
+    height: 300px;
+    padding: 30px;
+}
+
+.areaCedula, .areaConversao 
+{
+        position: relative;
+    top: 130px;
+    height: 390px;
+    padding: 40px;
+    background-color: #fbfbfb;
+    border-radius: 18px;
+    font-weight: regular;
+    text-align: center;
+    color: #333;
+    box-shadow: 2px 9px 35px -4px #000
+    }
+    
+    
+#lblResultado
+    {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Roboto, Arial;%
+        
+    }  
+#btnConverter
+{
+    -webkit-appearance: button;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin-top: 15px;
+    border: 2px solid #a900ff;
+    background-color: #a900ff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#btnConverter:hover
+{
+    color:#a900ff;
+    background-color: transparent;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+table
+{
+    padding: 22px;
+    background-color: #fff;
+    border-radius: 10px 10px;
+    margin: 0 auto;
+    height: 566px;
+    margin-bottom: 170px;
+    position: relative;
+    top: 130px;
+    box-shadow: -3px 18px 37px -18px #434343;
+}
+
+.caixatxtTable
+{
+    background-color: transparent;
+}
+
+.txtTable
+{
+    text-align: center;
+    font-family: roboto, arial;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ba13ff;
+}
+
+.txtTable2
+{
+    color: #ba13ff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Roboto, Arial;
+}
+
+.txtcopy
+{
+    font-family: Roboto;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dado
+{
+    width: 510px;
+    color: #000;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #ba13ff;
+    border-radius: 3px;
+    height: 37px;
+    background-color: #fff;
+}
+.txtbox
+{
+    overflow: auto;
+    background-color: #fff;
+    border: 2px solid #ba13ff;
+    border-radius: 3px;
+    width: 509px;
+    border: 2ps solid;
+    font-family: roboto;
+    font-size: initial;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.btn1
+{
+    margin: 0 auto;
+    font-size: 22px;
+    background-color: #ba13ff;
+    border: 2px solid #ba13ff;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    color: white;
+    font-weight: normal;
+    margin-left: 38%;
+    font-family: roboto;
+    text-decoration: none;
+    
+}
+
+.btn1:hover
+{
+   background-color: #414141;
+    border: 2px solid #414141;
+    color: #fff ;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+.cl{clear: both;}
+.fl{float: left;}
+
+html, body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: enriqueta, arial;
+	width: 100%;
+	
+}
+
+article{
+	margin: 0 auto;
+	min-width: 1280px;
+	min-height: 2080px;
+}
+
+header{
+	margin: 0 auto;
+	background-color: #0009;
+	min-width: 1280px;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	height: 65px;
+	line-height: 50;
+	position: fixed;
+	z-index: 2;
+	box-shadow: 23px -9px 13px 14px #42424242;
+}
+
+.Simbolo{
+    background-image: url(../Imagens/Converta_Money_LOGO.png);
+    background-size: 150px 53px;
+    background-repeat: no-repeat;
+    height: 55px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+#botoes{
+position: absolute;
+top: 25px;
+width: 40%;
+left: 60%;
+font-size: 15px;
+font-family: myriad-pro, roboto;
+font-weight: bolder;
+line-height: 20px;
+}
+
+.btn{
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 60px;
+}
+.btn:hover{
+	color: #9F81F7;
+}
+#PaginaAtual{
+	color: #2ECCFA;
+}
+
+
+.imagemFundo{
+	background-image: url(../Imagens/wallpaper_cidade3.jpg);
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-top: 0px;
+}
+
+
+#ImagemVertical{
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	font-family: roboto;
+	font-weight: bolder;
+	/*Safari e Chrome*/
+    -webkit-transform: rotate(90deg);
+    /*Firefox*/
+    -moz-transform: rotate(90deg);
+    /*Internet Explorer e Edge*/
+    -ms-transform: rotate(90deg);
+    /*Opera*/
+    -o-transform: rotate(90deg);
+    float: left;
+    font-size: 20px;
+    margin-top: 270px;
+    margin-left: -135px
+}
+
+#ImagemVertical::after{
+	content: '';
+	width: 65px;
+	height: 1px;
+	background-color: currentColor;
+	display: inline-block;
+	margin: 4.5px;
+}
+
+.fab{
+	font-family: "Font Awesome 5 Brands";
+    position: relative;
+    top: -334px;
+    left: 0px;
+    float: inherit;
+    color: #f1f1f1;
+    font-size: 30px;
+    margin: 6px;
+}
+.fab:hover{
+	color: #9F81F7;
+}
+
+#redesSociais1{
+    background-color: transparent;
+    height: 98px;
+    width: 34px;
+    position: relative;
+    padding-top: 5px;
+    top: 500px;
+    left: 20px;
+    border-radius: 5px 5px;
+}
+#ConteudoMeio{
+	margin: 0 auto;
+	position: relative;
+	height: 450px;
+	width: 70%;
+	background-color: transparent;
+}
+.caixaTextomeio{
+	position: relative;
+	margin: 0 auto;
+	top: 100px;
+	width: 80%;
+	background-color: transparent;
+}
+.txtmeio{
+	position: relative;
+	margin: 0 auto;
+	font-family: roboto;
+	font-weight: bolder;
+	font-size: 30px;
+	width: 80%;
+	color: #f1f1f1;
+	text-align: center;
+	align-items: center;
+}
+
+.B{
+	color: #9A2EFE;
+}
+
+.caixaBotao{
+	height: 100px;
+	background-color: transparent;
+	margin: 0 auto;
+	width: 300px;
+}
+.btnConversor{
+	position: relative;
+    top: 33px;
+    left: 20%;
+    text-decoration: none;
+    font-family: roboto;
+    font-weight: bolder;
+    font-size: 22px;
+    background-color: #9A2EFE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #f1f1f1;
+    border: 2px solid #9A2EFE;
+    border-radius: 5px 5px;
+}
+.btnConversor:hover{
+	background-color: transparent;
+	border:2px solid #0080FF;
+	color: #0080FF;
+}
+
+
+.separador{
+	width: 100%;
+	height: 200px;
+	background-color: #fff;
+}
+
+#conteudo{
+	text-align: center;
+	font-family: roboto, arial;
+	font-size: 35px;
+	font-weight: bolder;
+	color: #424242;
+	margin-top: 30px;
+}
+#conteudo::after{
+	content: '';
+	width: 105px;
+	height: 4px;
+	background-color: #7401DF;
+	display: block;
+	margin: 10px auto;
+}
+#conteudoComent{
+	text-align: center;
+	font-family: roboto, arial;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #424242;
+	margin-top: 20px;
+}
+
+.ConstrucaoSite{
+	width: 33%;
+    height: 350px;
+    background-color: #7401DF;
+    padding: 20px;
+    font-size: 14px;
+    color: #f1f1f1;
+    font-weight: bolder;
+    font-family: roboto;
+}
+.tituloconstruSite{
+	text-align: center;
+	font-size: 25px;
+	font-family: roboto;
+	font-weight: bolder;
+	margin-bottom: 25px;
+}
+.paragrafoSite{
+	text-align: justify;
+	padding: 10px;
+}
+.ImagemdoLado{
+	    height: 350px;
+    width: 75%;
+    background-image: url(../Imagens/wallpaper_mesa.jpeg);
+    position: relative;
+    left: 33%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;*/
+}
+
+.ImagemdoLado2{
+	height: 350px;
+    width: 33%;
+    left: 0;
+    background-image: url(../Imagens/tema_programacao_wallpaper.png);
+    left: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.ConstrucaoSite2{
+	height: 350px;
+	width: 33%;
+	left: 35%;
+	background-color:#e91e63;
+	font-size: 14px;
+	padding: 20px;
+	color: #f1f1f1;
+	font-family: roboto;
+	font-weight: bolder;
+	float: left;
+}
+
+.QuadradoLado{
+	height: 350px;
+    width: 34%;
+    left: 35%;
+    background-color: #151515;
+    float: left;
+}
+
+.ConstrucaoSite3{
+	height: 350px;
+    width: 75%;
+    background-image: url(../Imagens/wallpaper_mesa.jpeg);
+    position: relative;
+    left: 33%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.UltimaImagem{
+	float: left;
+	width: 66%;
+    height: 350px;
+    background-image: url(../Imagens/media_query1_wallpaper.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+    padding: 20px;
+    font-size: 14px;
+    color: #f1f1f1;
+    font-weight: bolder;
+    font-family: roboto;
+}
+
+.ConstrucaoSite4{
+	height: 350px;
+	padding: 20px;
+	color: #f1f1f1;
+	font-weight:  bolder;
+	font-family: roboto;
+	font-size: 14px;
+    width: 34%;
+    left: 35%;
+    background-color: #0080e6;
+    float: left;
+}
+
+
+footer{
+    padding-top: 55px;
+    padding-bottom: 30px;
+    height: 100px;
+    width: 100%;
+    color: #757575;
+    font-family: roboto;
+    font-weight: bold;
+    background-color: #252525;
+    float: left;
+    bottom: 0;
+}
+#paragrafoFooter{
+	text-align: center;
+    font-size: 11px;
+    position: relative;
+    top: -47px;
+}
